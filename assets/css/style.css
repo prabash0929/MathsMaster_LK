@@ -1,0 +1,38 @@
+body{
+    background:#f5f7fa;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.navbar-brand{
+    font-weight:bold;
+}
+
+.dashboard-card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.dashboard-card:hover{
+    transform:translateY(-8px);
+}
+
+.dashboard-card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.hero{
+    background:linear-gradient(135deg,#0d6efd,#0a58ca);
+    color:white;
+    padding:40px;
+    border-radius:20px;
+    margin-bottom:30px;
+}
+
+.footer{
+    text-align:center;
+    padding:20px;
+    color:#666;
+}
